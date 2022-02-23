@@ -1,0 +1,301 @@
+.app {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.app-header {
+  background-color: #3a3c50;
+  color: white;
+  margin: 0px;
+  padding: 15px;
+  overflow: hidden;
+}
+
+::-webkit-input-placeholder {
+   font-style: italic;
+   color: #acaaac;
+}
+:-moz-placeholder {
+   font-style: italic;
+   color: #acaaac;
+}
+::-moz-placeholder {
+   font-style: italic;
+   color: #acaaac;
+}
+:-ms-input-placeholder {
+   font-style: italic;
+   color: #acaaac;
+}
+::-ms-input-placeholder {
+  font-style: italic;
+  color: #acaaac;
+}
+
+.button:focus,.button:active,note-card:active,.color-picker:focus {
+  outline: none !important;
+}
+
+.note-main {
+  position: fixed;
+  z-index: 3;
+}
+.note-card {
+  background-color: white;
+  padding: 10px;
+  box-shadow: 0 1px #FFFFFF inset, 0 1px 3px rgba(34, 25, 25, 0.4);
+  border-radius: 5px;
+  width: 500px;
+  border-top: 10px solid;
+  height: 600px;
+}
+
+.note-display {
+  position: fixed;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.border-pink {
+  border-top-color: #ffccd4;
+}
+.border-aqua {
+  border-top-color: #71e7bf;
+}
+.border-yellow {
+  border-top-color: #f1d330;
+}
+.border-blue {
+  border-top-color: #90c7ec;
+}
+
+.note-save, .note-cancel, .note-add {
+  height: 45px;
+  width: 110px;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.note-add {
+  display: inline-block;
+  float: right;
+  clear: left;
+  background-color: #00d6f2;
+  color: white;
+  margin-right: 25px;
+  padding-bottom: 8px;
+  width: 140px;
+}
+
+.plus {
+  font-size: 25px;
+  padding-right: 10px;
+}
+
+.note-save {
+  float: right;
+  background-color: #00d6f2;
+  color: white;
+  margin-right: 25px;
+}
+.note-save:hover, .note-save:active, .note-add:hover, .note-add:active {
+  background-color: #0393a6;
+}
+
+.note-dummy {
+  float: right;
+  background-color: #a4eff9;
+  color: white;
+  margin-right: 25px;
+  height: 45px;
+  width: 110px;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+.note-cancel {
+  float: left;
+  background-color: #c9c9c9;
+  color: white;
+  margin-left: 25px;
+}
+.note-cancel:hover, .note-cancel:active {
+  background-color: #817d7d;
+}
+
+.note-title {
+  /*position: absolute;*/
+  width: 450px;
+  margin: 0px 20px 0px 20px;
+  border: none;
+  outline: none;
+  height: 45px;
+  font-size: 30px;
+  padding-left: 10px;
+}
+
+.note-body {
+  /*position: absolute;*/
+  height: 380px;
+  width: 450px;
+  margin: 20px 20px 20px 20px;
+  text-align: left;
+  padding-left:10px;
+  padding-top:0;
+  padding-bottom:0.4em;
+  padding-right: 0.4em;
+  resize: none;
+  border: none;
+  outline: none;
+  font-size: 20px;
+}
+
+.color-picker-group {
+  margin: 10px 0px 20px 25px;
+}
+
+.color-picker {
+  display: inline-block;
+  margin: 5px;
+  height: 25px;
+  width: 25px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.pink {
+  background-color: #ffccd4;
+  border: 3px solid #ffccd4;
+}
+
+.aqua {
+  background-color: #71e7bf;
+  border: 3px solid #71e7bf;
+}
+
+.yellow {
+  background-color: #f1d330;
+  border: 3px solid #f1d330;
+}
+
+.blue {
+  background-color: #90c7ec;
+  border: 3px solid #90c7ec;
+}
+
+.color-picker:focus, color-picker:active {
+  border: 3px solid #00B4CC;
+}
+
+.array-list{
+  position: absolute;
+}
+
+.note-map {
+  text-align: justify;
+}
+
+.note-map > div {
+  overflow: auto;
+  display: inline-block;
+}
+
+.note-map:after {
+  display: inline-block;
+}
+
+.note-list {
+  overflow: hidden;
+  height: 250px;
+  width: 300px;
+  margin: 10px;
+}
+
+.note-list-body {
+  width: 300px;
+  height: 150px;
+  font-size: 15px;
+  pointer-events: none;
+  border: none;
+  resize: none;
+  white-space: pre-wrap;
+}
+
+.fa-pencil, .fa-trash {
+  color: #c9c9c9;
+}
+
+.note-single {
+  overflow: hidden;
+}
+
+.note-single-title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 200px;
+  display: inline-block;
+  height: 25px;
+  float: left;
+  padding-left: 10px;
+}
+
+.note-icon {
+  float: right;
+  padding: 10px;
+  margin-top: 7px;
+  cursor: pointer;
+}
+
+.note-icon:hover {
+  color: #90c7ec;
+}
+
+.remove-modal {
+  background-color: white;
+  box-shadow: 0 1px #FFFFFF inset, 0 1px 3px rgba(34, 25, 25, 0.4);
+  position: fixed;
+  z-index: 3;
+  border-radius: 5px;
+  height: 250px;
+  width: 430px;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.remove {
+  padding: 25px;
+  position: relative;
+}
+
+.remove-top {
+  padding: 0 0 50px 50px;
+}
+
+.delete-btn {
+  position: relative;
+  margin-left: 10px;
+  overflow: hidden;
+}
+
+.cancel-btn {
+  position: relative;
+  overflow: hidden;
+}
+
+.note-map-btn {
+  float: right;
+  margin-top: 5px;
+}
+
+.parent-list-body {
+  overflow: hidden;
+}
