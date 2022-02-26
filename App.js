@@ -231,9 +231,18 @@ class App extends React.Component {
     return (
       <div className="app">
         <div className="app-header">
-          <button
-            onClick={this.isOpen}
-          className="note-add button"> <span className="plus">+ </span> Add Note</button>
+          <button onClick={this.isOpen} className="note-add button">
+            {" "}
+            <span className="plus">+</span> <span className="A"></span>
+            <span className="A">A</span>
+            <span className="d">d</span>
+            <span className="d2">d</span>
+            <span> </span>
+            <span className="N">N</span>
+            <span className="o">o</span>
+            <span className="t">t</span>
+            <span className="e">e</span>{" "}
+          </button>
         </div>
         <div className="array-list">
           <List
