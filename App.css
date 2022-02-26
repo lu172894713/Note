@@ -10,6 +10,114 @@
   overflow: hidden;
 }
 
+.note-add {
+  background-color: rgb(88, 83, 83);
+}
+
+.plus {
+  color: red;
+  font-weight: bold;
+}
+
+.A {
+  color: yellow;
+  font-weight: bold;
+}
+
+.d {
+  color: green;
+  font-weight: bold;
+}
+
+.d2 {
+  color: rgb(27, 30, 221);
+  font-weight: bold;
+}
+
+.N {
+  color: red;
+  font-weight: bold;
+}
+
+.o {
+  color: yellow;
+  font-weight: bold;
+}
+
+.t {
+  color: rgb(45, 185, 45);
+  font-weight: bold;
+}
+
+.e {
+  color: blue;
+  font-weight: bold;
+}
+
+::-webkit-input-placeholder {
+  font-style: italic;
+  color: #acaaac;
+}
+:-moz-placeholder {
+  font-style: italic;
+  color: #acaaac;
+}
+::-moz-placeholder {
+  font-style: italic;
+  color: #acaaac;
+}
+:-ms-input-placeholder {
+  font-style: italic;
+  color: #acaaac;
+}
+::-ms-input-placeholder {
+  font-style: italic;
+  color: #acaaac;
+}
+
+.button:focus,
+.button:active,
+note-card:active,
+.color-picker:focus {
+  outline: none !important;
+}
+
+.note-main {
+  position: fixed;
+  z-index: 3;
+}
+.note-card {
+  background-color: white;
+  padding: 10px;
+  box-shadow: 0 1px #ffffff inset, 0 1px 3px rgba(34, 25, 25, 0.4);
+  border-radius: 5px;
+  width: 500px;
+  border-top: 10px solid;
+  height: 600px;
+}
+
+.note-display {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.border-pink {
+  border-top-color: #ffccd4;
+}
+.border-aqua {
+  border-top-color: #71e7bf;
+}
+.border-yellow {
+  border-top-color: #f1d330;
+}
+.border-blue {
+  border-top-color: #90c7ec;
+}
+
 ::-webkit-input-placeholder {
    font-style: italic;
    color: #acaaac;
