@@ -118,68 +118,9 @@ note-card:active,
   border-top-color: #90c7ec;
 }
 
-::-webkit-input-placeholder {
-   font-style: italic;
-   color: #acaaac;
-}
-:-moz-placeholder {
-   font-style: italic;
-   color: #acaaac;
-}
-::-moz-placeholder {
-   font-style: italic;
-   color: #acaaac;
-}
-:-ms-input-placeholder {
-   font-style: italic;
-   color: #acaaac;
-}
-::-ms-input-placeholder {
-  font-style: italic;
-  color: #acaaac;
-}
-
-.button:focus,.button:active,note-card:active,.color-picker:focus {
-  outline: none !important;
-}
-
-.note-main {
-  position: fixed;
-  z-index: 3;
-}
-.note-card {
-  background-color: white;
-  padding: 10px;
-  box-shadow: 0 1px #FFFFFF inset, 0 1px 3px rgba(34, 25, 25, 0.4);
-  border-radius: 5px;
-  width: 500px;
-  border-top: 10px solid;
-  height: 600px;
-}
-
-.note-display {
-  position: fixed;
-  top:0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: auto;
-}
-
-.border-pink {
-  border-top-color: #ffccd4;
-}
-.border-aqua {
-  border-top-color: #71e7bf;
-}
-.border-yellow {
-  border-top-color: #f1d330;
-}
-.border-blue {
-  border-top-color: #90c7ec;
-}
-
-.note-save, .note-cancel, .note-add {
+.note-save,
+.note-cancel,
+.note-add {
   height: 45px;
   width: 110px;
   border: none;
@@ -210,7 +151,10 @@ note-card:active,
   color: white;
   margin-right: 25px;
 }
-.note-save:hover, .note-save:active, .note-add:hover, .note-add:active {
+.note-save:hover,
+.note-save:active,
+.note-add:hover,
+.note-add:active {
   background-color: #0393a6;
 }
 
@@ -232,7 +176,8 @@ note-card:active,
   color: white;
   margin-left: 25px;
 }
-.note-cancel:hover, .note-cancel:active {
+.note-cancel:hover,
+.note-cancel:active {
   background-color: #817d7d;
 }
 
@@ -253,9 +198,9 @@ note-card:active,
   width: 450px;
   margin: 20px 20px 20px 20px;
   text-align: left;
-  padding-left:10px;
-  padding-top:0;
-  padding-bottom:0.4em;
+  padding-left: 10px;
+  padding-top: 0;
+  padding-bottom: 0.4em;
   padding-right: 0.4em;
   resize: none;
   border: none;
@@ -296,11 +241,12 @@ note-card:active,
   border: 3px solid #90c7ec;
 }
 
-.color-picker:focus, color-picker:active {
-  border: 3px solid #00B4CC;
+.color-picker:focus,
+color-picker:active {
+  border: 3px solid #00b4cc;
 }
 
-.array-list{
+.array-list {
   position: absolute;
 }
 
@@ -334,7 +280,8 @@ note-card:active,
   white-space: pre-wrap;
 }
 
-.fa-pencil, .fa-trash {
+.fa-pencil,
+.fa-trash {
   color: #c9c9c9;
 }
 
@@ -366,13 +313,13 @@ note-card:active,
 
 .remove-modal {
   background-color: white;
-  box-shadow: 0 1px #FFFFFF inset, 0 1px 3px rgba(34, 25, 25, 0.4);
+  box-shadow: 0 1px #ffffff inset, 0 1px 3px rgba(34, 25, 25, 0.4);
   position: fixed;
   z-index: 3;
   border-radius: 5px;
   height: 250px;
   width: 430px;
-  top:0;
+  top: 0;
   bottom: 0;
   left: 0;
   right: 0;
